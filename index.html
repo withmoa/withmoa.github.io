@@ -412,6 +412,30 @@
       transition: color 0.4s ease;
     }
 
+    /* ─── TESTIMONIALS ───────────────────────────────────────── */
+
+.testimonials {
+  background-color: var(--sand);
+  padding: 6rem 10vw;
+}
+
+.testimonials__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.testimonial {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--bark);
+  padding: 2rem;
+  background-color: var(--cream);
+  border-top: 1px solid var(--earth);
+}
     /* ─── HOUSE OF SOMA ──────────────────────────────────────── */
 
     .soma {
@@ -771,7 +795,22 @@
     </div>
 
   </section>
-
+<!-- ─── TESTIMONIALS ─────────────────────────────────────── -->
+<section class="testimonials">
+  <p class="section-label" style="text-align: center;">Words from others</p>
+  <div class="testimonials__grid">
+    <blockquote class="testimonial">
+      "The best trip in years. Changed me deeply. Go, book your next retreat."
+    </blockquote>
+    <blockquote class="testimonial">
+      "Yin yoga with Moa is pure magic for body and soul. You leave the studio with a more open mind and more energy. Highly recommended."
+    </blockquote>
+    <blockquote class="testimonial">
+      "Thank you for a fantastic class. Pure magic."
+    </blockquote>
+  </div>
+</section>
+  
   <!-- ─── HOUSE OF SOMA ─────────────────────────────────────── -->
   <section class="soma" id="soma">
 
